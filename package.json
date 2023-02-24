@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,17 @@
   },
   "homepage": "https://github.com/jreitman007/intro-to-node#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "@types/tsv": "^0.2.1",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "google-spreadsheet": "^3.3.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/google-spreadsheet": "^3.3.1",
+    "@types/node": "^18.13.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
   }
 }
